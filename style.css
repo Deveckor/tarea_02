@@ -58,14 +58,24 @@ span{
     text-align: justify;
     border-bottom-right-radius: 15px;
 }
-button{
+.btn01{
     background-color: #BEDF34;
+    color: white;
     border: none;
     border-radius: 5px;
     height: 30px;
     width: 60%;
+    cursor: pointer;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
 }
+
+.btn01:hover{
+    background-color: #8da725;
+    color: tomato;
+    height: 35px;
+    width: 65%;
+}
+
 #div04{
     display: flex;
     justify-content: center;
